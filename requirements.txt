@@ -1,0 +1,11 @@
+django-filebrowser<4
+django-filter
+django-grappelli<3
+django-redis
+django-rq
+django>=3.2,<4
+djangorestframework
+drf-extensions
+
+pillow
+psycopg2-binary

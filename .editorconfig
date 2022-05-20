@@ -1,0 +1,22 @@
+# Put this file as '.editorconfig' in project's folder
+# EditorConfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+indent_size = 2
+indent_style = space
+trim_trailing_whitespace = true
+
+[*.{html,py}]
+indent_size = 4
+
+[*.py]
+insert_final_newline = true
+
+# Makefile prefered only tabs
+[[mM]akefile]
+indent_style = tab
